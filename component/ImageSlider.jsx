@@ -1,6 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
 
+
+
 export default function ImageSlider({ projects = [] }) {
   const [current, setCurrent] = useState(0);
 
